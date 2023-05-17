@@ -2,7 +2,6 @@ const apiKey = config.API_KEY
 const API_URL = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${apiKey}&page=1`
 const IMG_PATH = 'https://image.tmdb.org/t/p/w1280'
 const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query="`
-console.log(apiKey)
 
 const main = document.getElementById('main')
 const form = document.getElementById('form')
