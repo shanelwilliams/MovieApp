@@ -43,13 +43,15 @@ function showMovies(movies) {
 }
 
 function getClassByRate(vote) {
+    let color 
     if(vote >= 8) {
-        return 'green'
+        color = 'green'
     } else if(vote >= 5) {
-        return 'orange'
+        color = 'orange'
     } else {
-        return 'red'
+        color = 'red'
     }
+    return color
 }
 
 form.addEventListener('submit', (e) => {
